@@ -6,16 +6,17 @@
     <title>Creando un Formulario en HTML</title>
 </head>
 <body>
-    <form action="">
+    <form action=""method="get"><!--agregar action y el method--><!--method get para backend-->
         <label for="">Nombre</label>
-        <input type="text" placeholder="Ingrese su nombre">
+        <input type="text"  name="nombre" placeholder="Ingrese su nombre">
         <label for="">Apellido</label>
-        <input type="text" placeholder="Ingrese su apellido" >
-        <label for="">E-mail</label>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido" >
+        <label for="" name="email" >E-mail</label>
         <input type="email" placeholder="Ingrese si e-mail" ><!--type email-->
         <label for="">Password</label>
         <input type="password">
-        
+        <input type="submit" value="Enviar">
+
 
     </form>
 </body>
