@@ -54,4 +54,26 @@ section{
 
 
 }
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-family: "Sevillana rev=3";
+}
+h4{
+
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+/*section h1 {
+    font-weight: 400px;
+}*/
+
+/*
+https://htmlcheatsheet.com/css/
+
+https://fonts.google.com/
+
+https://www.w3schools.com/css/css_font.asp
+*/
 
