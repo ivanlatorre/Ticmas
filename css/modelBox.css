@@ -7,7 +7,7 @@
 
 }
 
-p{
+p, span{
     color: red;
     width: 300px;
 }
@@ -38,3 +38,13 @@ section{
     padding: 50px;
     margin: 20px;
 }
+
+#mi_parrafo{
+
+    color: yellow;
+    font-size: 23px;
+    border: 1px solid orange;
+
+}
+
+
