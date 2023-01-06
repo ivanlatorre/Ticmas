@@ -1,7 +1,7 @@
 //iniciailización; condicion; incremento
 
-var x = 0;
+var x = 10;
 
-for(x; x < 5; x++){
+for(x; x > 0; x--){
     console.log("El valor de x es: "+x)
 }
