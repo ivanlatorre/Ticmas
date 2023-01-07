@@ -13,4 +13,8 @@ function sumar(a,b){
 
 
 suma = sumar(3,4);
-console.log(suma);
+console.log("suma: " + suma);
+suma2 = sumar(5,5);
+console.log("suma-2: " + suma2);
+suma3 = sumar(7,6);
+console.log("suma-3: " + suma3);
