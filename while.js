@@ -8,5 +8,5 @@ while(x > 0){
 var z = 10;
 //se ejecuta el codigo una vez y despues la condición
 do{
-    console.log("Mi variable do while vale: "+ z)
+    console.log("Mi variable do while vale: "+ z)//sentencia
 }while(z > 10)
