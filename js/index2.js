@@ -16,3 +16,7 @@ document.getElementById('boton').addEventListener('click', function(){
 
 
 });
+
+document.getElementById('boton_color').addEventListener('click',function(){
+    document.body.style.backgroundColor = '#FF0000';
+});
