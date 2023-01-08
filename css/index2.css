@@ -1,3 +1,7 @@
 body{
     background-color: blue;
+    color: white;
+}
+#demo{
+    color: red;
 }
