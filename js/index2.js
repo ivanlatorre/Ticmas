@@ -24,3 +24,12 @@ document.getElementById('boton_color').addEventListener('click',function(){
 document.getElementById('boton_dafault').addEventListener('click',function(){
     document.body.style.backgroundColor = 'blue';
 });
+
+document.getElementById('boton_ocultar').addEventListener('click',function(){
+    document.getElementById('demo').style.display = 'none';
+});
+
+const collection = document.getElementsByClassName("prueba");
+for(let i = 0; i < collection.length; i++){
+    collection [i].style.backgroundColor = "green";
+}
