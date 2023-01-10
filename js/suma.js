@@ -5,7 +5,7 @@ document.getElementById('sumar').addEventListener('click', function(){
     let numeroB = document.getElementById('numero2').value;
     console.log('El valor del numero A es: '+numeroB);
 
-    let resultado = sumar(numeroA, numeroB);
+    let resultado = sumar(parseInt(numeroA),parseInt(numeroB));
     console.log('El resultado de la suma es: '+resultado);
 
     document.getElementById('resultado').innerHTML = resultado;
