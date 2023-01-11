@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fetch.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo" ></p>
+    <script>
+        fetch('http://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(json => console.log(json))
+
+            const persona = '{"nombre":"Daniel","edad":30, "nacionalidad":"Argentino"}';
+            const obj = JSON.parse(persona);
+            console.log(obj);
+            document.getElementById("demo").innerHTML =
+            "Nombre: "+obj.nombre+
+            "|Edad: "+obj.edad+
+            "|Nacionalidad: "+obj.nacionaliad;
+
+
+    </script>
+</body>
+</html>
