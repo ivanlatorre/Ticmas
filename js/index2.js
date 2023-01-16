@@ -33,3 +33,15 @@ const collection = document.getElementsByClassName("prueba");
 for(let i = 0; i < collection.length; i++){
     collection [i].style.backgroundColor = "green";
 }
+document.getElementById('primary').addEventListener('click',function(){
+    document.body.style.backgroundColor = 'blue';
+});
+document.getElementById('secondary').addEventListener('click',function(){
+    document.body.style.backgroundColor = '#6c757d';
+});
+document.getElementById('success').addEventListener('click',function(){
+    document.body.style.backgroundColor = '#198754';
+});
+document.getElementById('danger').addEventListener('click',function(){
+    document.body.style.backgroundColor = '#dc3545';
+});
